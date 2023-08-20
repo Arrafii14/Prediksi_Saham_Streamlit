@@ -12,7 +12,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Prediksi Saham (04201003)')
 
-stocks = ('INTC', 'NVDA', 'AMD', 'GME','IBM','ORCL','IFX','MU','ABBN')
+stocks = ('INTC', 'NVDA', 'AMD', 'GME','IBM','ORCL','IFX','MU','MSFT')
 selected_stock = st.selectbox('Pilih saham untuk diprediksi', stocks)
 
 n_years = st.slider('Tahun prediksi:', 1, 5)
